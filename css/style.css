@@ -1,0 +1,141 @@
+
+.o-base-width {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/*.o-spacing--horizontal {
+  padding-right: 50px;
+  padding-left: 50px;
+}*/
+
+.o-spacing--vertical {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.o-spacing--vertical + .o-spacing--vertical {
+  padding-top: 0;
+}
+
+/*Header*/
+
+.c-header {
+
+}
+
+.c-header-container {
+
+}
+
+
+/*Navbar*/
+
+.c-navbar {
+
+}
+
+/*About*/
+
+.c-about {
+
+}
+
+.c-about-container {
+
+}
+
+.c-about-cards {
+
+}
+
+.c-about__card {
+
+}
+
+/*News*/
+
+.c-news {
+
+}
+
+.c-news-post {
+
+}
+
+/*Blog*/
+
+.c-blog {
+
+}
+
+.c-blog-container {
+
+}
+
+.c-blog-cards {
+
+}
+
+.c-blog__card
+
+/*Action*/
+
+.c-action {
+  
+}
+
+.c-action-container {
+
+}
+
+.c-action__card
+
+/*Feature*/
+
+.c-feature {
+
+}
+
+.c-feature-container {
+  
+}
+
+/*Team*/
+
+.c-team {
+
+}
+
+.c-team-container {
+
+}
+
+/*Contact*/
+
+.c-contact {
+
+}
+
+.c-contact-container {
+
+}
+
+/*Map*/
+
+.c-map {
+
+}
+
+
+/*Footer*/
+
+.c-footer {
+
+}
+
+.c-footer-container {
+
+}
+
+/*Media query*/
