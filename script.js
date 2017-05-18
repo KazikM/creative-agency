@@ -25,3 +25,21 @@ window.addEventListener('scroll', function () {
     logo.classList.remove('.scroll');
   }
 });
+
+const links = document.querySelectorAll('.js-scroll-to')
+
+links.forEach(link => link.addEventListener('click', function (e) {
+  const href = this.getAttribute('href')
+
+  if (!href.startsWith('#')) return
+  e.preventDefault()
+
+  if (href === '#') {
+    scroll({ y: 0, behavior: 'smooth' })
+  } else {
+    document.getElementById(href.slice(1))
+      .scrollIntoView({ behavior: 'smooth' })
+  }
+
+  history.replaceState(null, null, href)
+}))
