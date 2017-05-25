@@ -1,6 +1,6 @@
 {
   "name": "creative-agency",
   "scripts": {
-    "start": "browser-sync start --server --files \".\""
+    "start": "browser-sync start --server --files \"**/*[.html|.css|.js]\""
   }
 }
