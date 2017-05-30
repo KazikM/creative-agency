@@ -490,14 +490,7 @@ a {
 }
 
 /*Team*/
-
-.c-team {
-
-}
-
-.c-team-container {
-
-}
+ 
 
 /*Contact*/
 
@@ -521,7 +514,7 @@ a {
 /*Map*/
 
 .c-map {
-
+  height: 400px;
 }
 
 
