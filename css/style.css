@@ -490,7 +490,86 @@ a {
 }
 
 /*Team*/
- 
+ .c-team {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.c-team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.c-team__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  padding: 2em 0 3em 0;
+  z-index: 0;
+}
+
+.c-team__title::before {
+  content: 'T';
+  margin: 0 auto;
+  font-size: 10rem;
+  font-weight: 700;
+  position: absolute;
+  color: rgba(0, 0, 0, .2);
+  z-index: -1;
+}
+
+.c-team__subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.c-team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.c-team__card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-team__card-photo {
+  padding: 1em;
+}
+
+.c-team__card-description {
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1rem;
+  padding: .7rem 0;
+  width: 75%;
+}
+
+.c-team__card-name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #11749e;
+}
+
+.c-team__card-profession {
+  padding-top: 1em;
+  font-size: .85rem;
+  font-weight: 600;
+}
 
 /*Contact*/
 
@@ -657,6 +736,11 @@ a {
     padding-bottom: 1em;
   }
 
+  .c-team__card-photo {
+    width: 179px;
+    height: auto;
+  }
+
   .c-news__text-content,
   .c-about__card-text,
   .c-action__card-text,
@@ -725,11 +809,19 @@ a {
   .c-feature__image {
     padding-top: 2rem;
   }
+  
+  .c-team__card-photo {
+    width: 136px;
+    height: auto;
+  }
+
+  .c-team__card-name {
+    font-size: .8rem;
+  }
 
   .c-footer-container {
     flex-direction: column;
   }
-  
   
 
 }
@@ -762,5 +854,10 @@ a {
 
   .c-feature__text-content {
     max-width: 60%;
+  }
+
+  .c-team__card-photo {
+    width: 200px;
+    height: auto;
   }
 }
